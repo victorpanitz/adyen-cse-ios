@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author                  = { 'Adyen' => 'support@adyen.com' }
   s.source                  = { :git => 'https://github.com/Adyen/AdyenCSE-iOS.git', :tag => "#{s.version}" }
   s.ios.deployment_target   = '7.0'
+  s.watchos.deployment_target = '6.0'
   s.source_files            = 'AdyenCSE/**/*.{h,m}'
   s.frameworks              = 'Foundation', 'Security'
 end
